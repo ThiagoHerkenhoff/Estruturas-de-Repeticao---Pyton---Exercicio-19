@@ -1,0 +1,13 @@
+# 19 - Escreva um algoritmo que leia um número inteiro entre 100 e 999 e imprima na saida cada um dos
+# algarismos que compõem o npumero.
+
+num = int(input('Informe um npumero entre 100 e 999: '))
+
+if num < 100 or num > 999:
+    print('Número inválido')
+
+else:
+    num_str = str(num)
+
+    for i in range(num_str):
+        print(i)
